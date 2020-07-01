@@ -15,30 +15,81 @@ p {
 }
 /* Header-Area */
 section{
-    height: 400px;
+    height: 500px;
     padding-bottom: 150px;
 }
-.top-banner {
+.half-width {
     width: 40%;
     float: left;
-    margin-left: 10%;
-    padding-left: 10%%;
+    margin-left: 5%;
+    padding-left: 5%;
 }
-.top-banner img {
+.half-width img {
     width: 70%;
 }
 .Header-Area {
-    background: url("images/header-bg.png") no-repeat left / cover
+    background: url("images/header-bg.png") no-repeat left / cover;
 }
 .link-button{
     text-decoration: none;
     color: #fff;
-    font-weight: 700px;
+    font-weight: 700;
     padding: 10px 20px;
     border-radius: 5px;
     background: linear-gradient(45deg, #fd79a8, #e84393)
 }
 /* Biography */
+.Middle-Area {
+    background: url("images/biography-bg.png") no-repeat left /cover;
+}
 /* Latest Work */
+.Work-Area{
+    background: url("images/latest-work-bg.png") no-repeat  /cover;
+}
+.latest-work {
+    text-align: center;
+    margin-top: 100px;
+}
+.box img {
+    width: 25%;
+    height: auto;
+    padding-top: 30px;
+    float: left;
+    margin-left: 6%;
+}
 /* Client Say */
+.Client {
+    background: url("images/footer-bg.png") no-repeat left / cover;
+}
+.Client h2{
+    text-align: center;
+}
+.Client h4 {
+    text-align: center;
+}
+.Client p {
+    text-align: center;
+    font-size: medium;
+}
+.big-button {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 50px 20px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #fd79a8, #e84393);
+    text-align: center;
+    height: auto;
+    width: 500px;
+    margin: auto;
+}
+.mail {
+    font-weight: 900;
+    font-size: 28px;
+}
 /* Fotter-Area */
+footer p {
+    text-align: center;
+    font-size: 12px;
+
+}
