@@ -71,6 +71,10 @@ section{
     text-align: center;
     font-size: medium;
 }
+.designation {
+    font-size: 14px;
+    color: gray;
+}
 .big-button {
     text-decoration: none;
     color: #fff;
@@ -91,5 +95,4 @@ section{
 footer p {
     text-align: center;
     font-size: 12px;
-
 }
