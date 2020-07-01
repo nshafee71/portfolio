@@ -2,8 +2,42 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+h2 {
+    font-size: 40px;
+    color: dimgray;
+}
+h1 {
+    font-size: 50px;
+    color: #e84393
+}
+p {
+    color: #333;
+}
 /* Header-Area */
+section{
+    height: 400px;
+    padding-bottom: 150px;
+}
+.top-banner {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 10%%;
+}
+.top-banner img {
+    width: 70%;
+}
+.Header-Area {
+    background: url("images/header-bg.png") no-repeat left / cover
+}
+.link-button{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #fd79a8, #e84393)
+}
 /* Biography */
 /* Latest Work */
 /* Client Say */
